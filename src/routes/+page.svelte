@@ -1,7 +1,26 @@
 <script lang="ts">
+	import 'leaflet/dist/leaflet.css';
+
 	import Case from '$lib/components/case.svelte';
 	import Faq from '$lib/components/faq.svelte';
 	import Star from '$lib/components/star.svelte';
+	import { onMount } from 'svelte';
+
+	onMount(async () => {
+		const L = await import('leaflet');
+
+		let map = L.map('map').setView([52.1326, 5.2913], 7);
+
+		map.attributionControl.setPrefix(false);
+
+		L.tileLayer(
+			'https://service.pdok.nl/brt/achtergrondkaart/wmts/v2_0/grijs/EPSG:3857/{z}/{x}/{y}.png',
+			{
+				attribution:
+					'Kaartgegevens &copy; <a href="https://www.kadaster.nl/" target="_blank" rel="noopener">Kadaster</a>'
+			}
+		).addTo(map);
+	});
 </script>
 
 <main class="text-bib-blue">
@@ -80,7 +99,7 @@
 
 		<h3 class="mb-10 text-center text-xl font-semibold">Lokale overheden</h3>
 
-		<div class="mb-20 aspect-square border border-bib-dark-blue"></div>
+		<div class="mb-20 aspect-square border border-bib-dark-blue" id="map"></div>
 
 		<h3 class="mb-10 text-center text-xl font-semibold">Nationale overheden</h3>
 
