@@ -1,1 +1,31 @@
 @import 'tailwindcss';
+
+@plugin '@iconify/tailwind4' {
+	prefixes: tabler;
+}
+
+@theme {
+	--font-sans: 'Work Sans Variable', sans-serif;
+	--font-serif: 'Lora Variable', serif;
+
+	--color-bib-blue: #1c3664;
+	--color-bib-dark-blue: #071939;
+	--color-bib-yellow: #efbe55;
+	--color-bib-light-lime: #dff6e3;
+	--color-bib-lime: #198d2c;
+	--color-bib-light-green: #a3d4ab;
+	--color-bib-green: #005d10;
+
+	--spacing-content-lg: min(calc(100vw - 32px), 900px);
+	--spacing-content-md: min(calc(100vw - 32px), 650px);
+}
+
+@layer base {
+	html {
+		scroll-behavior: smooth;
+	}
+
+	:where([id]) {
+		scroll-margin-top: 6rem;
+	}
+}
