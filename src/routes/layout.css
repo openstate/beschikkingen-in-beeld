@@ -8,21 +8,24 @@
 	--font-sans: 'Work Sans Variable', sans-serif;
 	--font-serif: 'Lora Variable', serif;
 
-	--color-bib-blue: #1c3664;
-	--color-bib-dark-blue: #071939;
-	--color-bib-yellow: #efbe55;
-	--color-bib-light-lime: #dff6e3;
-	--color-bib-lime: #198d2c;
-	--color-bib-light-green: #a3d4ab;
-	--color-bib-green: #005d10;
+	--color-bib-blue: oklch(33.86% 0.08718 260.922);
+	--color-bib-dark-blue: oklch(22.012% 0.0668 260.686);
+	--color-bib-yellow: oklch(82.591% 0.13355 83.837);
+	--color-bib-lime: oklch(52.321% 0.20427 129.135);
+	--color-bib-green: oklch(38.299% 0.20446 144.803);
 
 	--spacing-content-lg: min(calc(100vw - 32px), 900px);
 	--spacing-content-md: min(calc(100vw - 32px), 650px);
+	--spacing-content-sm: min(calc(100vw - 32px), 500px);
 }
 
 @layer base {
 	html {
 		scroll-behavior: smooth;
+	}
+
+	html:has(dialog[open]) {
+		overflow: hidden;
 	}
 
 	:where([id]) {
