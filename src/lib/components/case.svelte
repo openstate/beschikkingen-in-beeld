@@ -18,7 +18,7 @@
 			</div>
 		</summary>
 
-		<div class="gap-6 space-y-4 p-6 pt-0 md:columns-2">
+		<div class="gap-6 space-y-4 p-6 pt-0 [&_p]:last-of-type:mb-8">
 			{@render props.children()}
 		</div>
 	</details>

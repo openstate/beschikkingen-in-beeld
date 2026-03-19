@@ -91,27 +91,29 @@
 		</p>
 	</section>
 
-	<Case title="Gemeente Lorem">
+	<Case title="Gemeente Terschelling">
 		<p>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eleifend volutpat augue, in
-			euismod nisi egestas et. Sed accumsan eu ligula vitae feugiat. Sed at mauris euismod, vehicula
-			sapien quis, sollicitudin ipsum. Maecenas eu porta magna. Aenean suscipit, tortor ac venenatis
-			convallis, felis ipsum malesuada leo, eu cursus orci lacus vel ex. Sed ultricies nulla ac
-			viverra efficitur. Suspendisse tincidunt, ligula quis porta tincidunt, tortor libero aliquet
-			ante, quis viverra ipsum ex.
+			De gemeente Terschelling publiceert sinds 2025 op <a
+				href="https://www.terschelling.nl/wet-open-overheid"
+				target="_blank"
+				class="font-semibold underline decoration-2"
+			>
+				hun website
+			</a>
+			zowel een subsidieregister als een ‘beschikkingenregister’. Voor de inrichting van beide registers
+			is aangesloten bij de eisen die artikel 3.3a van de Wet open overheid stelt aan (actieve) openbaarmaking
+			van beschikkingen door middel van overzichten. Daarnaast vermelden beide registers per afzonderlijke
+			beschikking ook steeds het type (subsidie)beschikking.
 		</p>
-		<p>
-			Nunc viverra libero neque. Aliquam dignissim facilisis magna, at placerat metus semper vitae.
-			Ut suscipit pulvinar lectus vel sodales. Vivamus sed lacus interdum mauris fermentum feugiat
-			et non massa. Sed dictum velit elementum turpis efficitur tincidunt. Nunc convallis nunc non
-			felis convallis pharetra.
-		</p>
-		<p>
-			Nullam tristique ultrices nisi, sit amet auctor eros eleifend eget. Mauris lacinia placerat
-			erat id malesuada. Duis tristique magna ut pharetra porttitor. Fusce eget hendrerit purus.
-			Donec vehicula congue risus, vel maximus magna tincidunt vitae. Nullam convallis eros ac quam
-			finibus facilisis. Fusce convallis arcu et diam sollicitudin, at suscipit metus tristique.
-		</p>
+
+		<a href="/terschelling.png" target="_blank">
+			<img
+				src="/terschelling.png"
+				alt="Screenshot van de website van de gemeente Terschelling waarop het subsidieregister en het beschikkingenregister te zien zijn"
+				loading="lazy"
+				class="mx-auto max-h-128"
+			/>
+		</a>
 	</Case>
 
 	<section class="mx-auto my-32 w-content-md sm:my-36">
@@ -131,27 +133,29 @@
 		</div>
 	</section>
 
-	<Case title="Provincie Dolor">
+	<Case title="Gemeente Oldambt">
 		<p>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eleifend volutpat augue, in
-			euismod nisi egestas et. Sed accumsan eu ligula vitae feugiat. Sed at mauris euismod, vehicula
-			sapien quis, sollicitudin ipsum. Maecenas eu porta magna. Aenean suscipit, tortor ac venenatis
-			convallis, felis ipsum malesuada leo, eu cursus orci lacus vel ex. Sed ultricies nulla ac
-			viverra efficitur. Suspendisse tincidunt, ligula quis porta tincidunt, tortor libero aliquet
-			ante, quis viverra ipsum ex.
+			Op <a
+				href="https://woo-oldambt.divault.com/portaal"
+				target="_blank"
+				class="font-semibold underline decoration-2"
+			>
+				het Woo-portaal
+			</a> maakt de gemeente Oldambt – vooruitlopend op de inwerkingtreding van de verplichting hiertoe
+			– beschikkingen reeds openbaar als afzonderlijke informatiecategorie. De beschikking wordt niet
+			alleen beschikbaar gesteld als ‘document’ (in pdf-formaat), maar ook als ‘dossier’ waarvan dit document
+			deel uitmaakt (waardoor de zoekresultaten dubbel tellen). In het document wordt gemotiveerd welke
+			informatie binnen de beschikking niet openbaar wordt gemaakt.
 		</p>
-		<p>
-			Nunc viverra libero neque. Aliquam dignissim facilisis magna, at placerat metus semper vitae.
-			Ut suscipit pulvinar lectus vel sodales. Vivamus sed lacus interdum mauris fermentum feugiat
-			et non massa. Sed dictum velit elementum turpis efficitur tincidunt. Nunc convallis nunc non
-			felis convallis pharetra.
-		</p>
-		<p>
-			Nullam tristique ultrices nisi, sit amet auctor eros eleifend eget. Mauris lacinia placerat
-			erat id malesuada. Duis tristique magna ut pharetra porttitor. Fusce eget hendrerit purus.
-			Donec vehicula congue risus, vel maximus magna tincidunt vitae. Nullam convallis eros ac quam
-			finibus facilisis. Fusce convallis arcu et diam sollicitudin, at suscipit metus tristique.
-		</p>
+
+		<a href="/oldambt.png" target="_blank">
+			<img
+				src="/oldambt.png"
+				alt="Screenshot van de website van de gemeente Oldambt waarop het Woo-portaal te zien is"
+				loading="lazy"
+				class="mx-auto max-h-128"
+			/>
+		</a>
 	</Case>
 
 	<section class="mx-auto my-32 w-content-md sm:my-36">
@@ -186,27 +190,34 @@
 		</div>
 	</section>
 
-	<Case title="Autoriteit Consectetur Adipiscing">
+	<Case title="Autoriteit Consument en Markt (ACM)">
 		<p>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eleifend volutpat augue, in
-			euismod nisi egestas et. Sed accumsan eu ligula vitae feugiat. Sed at mauris euismod, vehicula
-			sapien quis, sollicitudin ipsum. Maecenas eu porta magna. Aenean suscipit, tortor ac venenatis
-			convallis, felis ipsum malesuada leo, eu cursus orci lacus vel ex. Sed ultricies nulla ac
-			viverra efficitur. Suspendisse tincidunt, ligula quis porta tincidunt, tortor libero aliquet
-			ante, quis viverra ipsum ex.
+			Op grond van de Instellingswet Autoriteit Consument en Markt is de ACM verplicht om
+			beschikkingen tot het opleggen van een bestuurlijke sanctie of een bindende aanwijzing
+			openbaar te maken. Daarnaast heeft zij de bevoegdheid om ‘andere besluiten dan beschikkingen
+			tot het opleggen van een bestuurlijke sanctie of bindende aanwijzing’ openbaar te maken. In
+			haar openbaarmakingsbeleid gaat de ACM expliciet in op de mogelijkheid om ‘andere besluiten
+			dan sanctie-gerelateerde beschikkingen’ openbaar te maken.
 		</p>
 		<p>
-			Nunc viverra libero neque. Aliquam dignissim facilisis magna, at placerat metus semper vitae.
-			Ut suscipit pulvinar lectus vel sodales. Vivamus sed lacus interdum mauris fermentum feugiat
-			et non massa. Sed dictum velit elementum turpis efficitur tincidunt. Nunc convallis nunc non
-			felis convallis pharetra.
+			Op de website van de ACM kan binnen ‘<a
+				href="https://www.acm.nl/nl/publicaties"
+				target="_blank"
+				class="font-semibold underline decoration-2">publicaties</a
+			>’ specifiek worden geselecteerd op ‘Beslissing op bezwaar’ en ‘Besluit’, hetgeen resulteert
+			in ruim 5800 resultaten (waaronder besluiten van rechtsvoorgangers van de ACM). Hoewel de term
+			‘besluit’ ruimer is dan ‘beschikking’, is het merendeel van de besluiten van de ACM een
+			beschikking.
 		</p>
-		<p>
-			Nullam tristique ultrices nisi, sit amet auctor eros eleifend eget. Mauris lacinia placerat
-			erat id malesuada. Duis tristique magna ut pharetra porttitor. Fusce eget hendrerit purus.
-			Donec vehicula congue risus, vel maximus magna tincidunt vitae. Nullam convallis eros ac quam
-			finibus facilisis. Fusce convallis arcu et diam sollicitudin, at suscipit metus tristique.
-		</p>
+
+		<a href="/acm.png" target="_blank">
+			<img
+				src="/acm.png"
+				alt="Screenshot van de website van de ACM waarop de publicaties te zien zijn"
+				loading="lazy"
+				class="mx-auto max-h-128"
+			/>
+		</a>
 	</Case>
 
 	<section class="mx-auto my-32 w-content-md sm:my-36">
@@ -253,6 +264,31 @@
 			</p>
 		</Faq>
 	</section>
+
+	<Case title="Publicatieplatform UitvoeringsContent (PUC)">
+		<p>
+			Op het publicatieplatform PUC kunnen (uitvoerende) overheidsorganisaties documenten openbaar
+			maken. PUC maakt het mogelijk om specifieke informatiecategorieën / documentsoorten te
+			selecteren, waaronder ‘besluiten’. Met uitzonderingen van de deelcategorie ‘besluiten van
+			algemene strekking’ is hierbij sprake van beschikkingen.
+		</p>
+		<p>
+			Een van de instanties die gebruik maakt van PUC, is de Minister van LVVN bij de verlening van
+			natuurvergunningen. PUC geeft de inhoud van het besluit weer in html-formaat (met de
+			mogelijkheid om het document in pdf-formaat te genereren). Naast diverse metadata (onder
+			‘Documentgegevens’) bevat PUC ook verwijzingen naar andere documenten, zoals de verlening van
+			de vergunning waarop de weigering betrekking heeft.
+		</p>
+
+		<a href="/puc.png" target="_blank">
+			<img
+				src="/puc.png"
+				alt="Screenshot van de website van het PUC-platform"
+				loading="lazy"
+				class="mx-auto max-h-128"
+			/>
+		</a>
+	</Case>
 
 	<section class="mx-auto my-32 w-content-md sm:my-36">
 		<h2 id="over" class="mb-10 text-center text-2xl font-semibold">Over Beschikkingen in Beeld</h2>
