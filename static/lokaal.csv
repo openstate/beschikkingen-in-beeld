@@ -5,7 +5,7 @@ GM0106,Gemeente Assen,Begrotingssubsidies,https://assen.publicaties.app/pub/prog
 GM0758,Gemeente Breda,Kennisgeving staatssteun,https://www.breda.nl/kennisgevingen-staatssteun,Algemene Groepsvrijstellingsverordening,1,subsidie,integraal,2024,,2026-02-10
 GM0758,Gemeente Breda,Subsidieregister,https://www.breda.nl/wetten-en-regels-subsidies,Wet open overheid,,subsidie,register,2025,,2026-02-10
 GM0518,Gemeente Den Haag,Subsidieregister,https://subsidieregister.denhaag.nl/,Wet open overheid,,subsidie,register,2012-2025,"jaar, subsidieregeling/beleidsnota, programma, aanvrager, bedrag",2026-02-10
-GM0402,Gemeente Hilversum,Subsidieregister,https://open.hilversum.nl/pages/bad658a0a2214fcaa6a137787916b12b,,,subsidie,register,2024-2025,"jaar, maand, subsidieregeling, programma, aanvrager",2026-02-10
+GM0402,Gemeente Hilversum,Subsidieregister,https://open.hilversum.nl/pages/bad658a0a2214fcaa6a137787916b12b,Wet open overheid,,subsidie,register,2024-2025,"jaar, maand, subsidieregeling, programma, aanvrager",2026-02-10
 GM1895,Gemeente Oldambt,Beschikkingen,https://woo-oldambt.divault.com/portaal?categorie=beschikkingen,Wet open overheid,180,"vergunning, ontheffing, verkeersbesluit, melding, subsidieoverzicht, registratie, beslissing op bezwaar",integraal,2025,,2026-02-07
 GM1586,Gemeente Oost Gelre,Voorkeursrechten,https://www.oostgelre.nl/publicatie-vestiging-voorkeursrechten,Wet open overheid,11,voorkeursrecht,integraal,2025,,2026-02-10
 GM0599,Gemeente Rotterdam,Evenementenvergunningen,https://www.evenementeninrotterdam.nl/,Wet open overheid,4624,"vergunning, melding",integraal,2021-2025,naam,2026-02-10
@@ -15,12 +15,51 @@ GM0453,Gemeente Velsen,Subsidieregister,https://www.velsen.nl/beschikkingen,Wet 
 GM0189,Gemeente Wierden,Voorkeursrechten,https://open.wierden.nl/beschikkingen,Wet open overheid,3,voorkeursrecht,integraal,2024-2025,,2026-02-10
 GM0479,Gemeente Zaanstad,Steunmaatregelen Zaanstad,https://www.zaanstad.nl/direct-regelen/subsidies/algemene-subsidieverordening-asv/gemeentelijke-steunmaatregelen-algemene-groepsvrijstellingsverordening-agvv/,Algemene Groepsvrijstellingsverordening,8,subsidie,integraal,2023-2025,,2026-02-10
 PV22,provincie Drenthe,Subsidieregister,https://www.provincie.drenthe.nl/loket/subsidieloket/subsidieregister/?handheld=true,Wet open overheid,,subsidie,register,2015-2025,naam; project; bedrag; beleidsveld,2026-02-17
-PV22,provincie Drenthe,Steunmaatregelen,https://www.provincie.drenthe.nl/loket/subsidieloket/subsidieregister/?handheld=true,Algemene Groepsvrijstellingsverordening,95,subsidie,integraal,2020-2025,,2026-03-06
+PV22,provincie Drenthe,Steunmaatregelen Drenthe,https://www.provincie.drenthe.nl/loket/subsidieloket/subsidieregister/?handheld=true,Algemene Groepsvrijstellingsverordening,95,subsidie,integraal,2020-2025,,2026-03-06
 PV25,provincie Gelderland,Subsidieregister,https://open.gelderland.nl/woo-documenten?zoekterm=subsidieregister,Wet open overheid,,subsidie,register,2024-2025,programma; zaaknummer; project; ontvanger; datum; bedrag; totale kosten subsidiabel; startdatum; einddatum meer,2026-02-07
+PV25,provincie Gelderland,Begrotingsbrieven,https://open.gelderland.nl/woo-documenten?categorien=zf7ckyfjskaptzed88s34c8x,Wet open overheid,96,begrotingsbrief,integraal,2025,,2026-03-06
 PV30,provincie Noord-Brabant,Subsidieregister,https://www.brabant.nl/loket/informatie-subsidie-aanvragen/openbaar-subsidie-bijdrageregister,Wet open overheid,,subsidie,register,2021-2025,,2026-02-07
-PV30,provincie Noord-Brabant,Vergunningen,https://www.brabant.nl/loket/besluiten-vergunningen-meldingen/,,12116,vergunning,integraal,2013-2025,"fase vergunning, gemeente, soort vergunning",2026-03-06
+PV30,provincie Noord-Brabant,"Besluiten, vergunningen, meldingen",https://www.brabant.nl/loket/besluiten-vergunningen-meldingen/,,12116,vergunning,integraal,2013-2025,"fase vergunning, gemeente, soort vergunning",2026-03-06
 PV27,provincie Noord-Holland,Subsidieregister,https://www.noord-holland.nl/Loket/Subsidies/Subsidieregister_en_kennisgeving_staatssteun,Wet open overheid,,subsidie,register,2011-2025,,2026-02-07
 PV27,provincie Noord-Holland,Kennisgeving staatssteun,https://www.noord-holland.nl/Loket/Subsidies/Subsidieregister_en_kennisgeving_staatssteun,Algemene Groepsvrijstellingsverordening,95,subsidie,integraal,2019-2025,,2026-02-07
-PV26,provincie Utrecht,Subsidieregister,https://www.provincie-utrecht.nl/loket/subsidies/verleende-subsidies,,,subsidie,register,2017-2025,,2026-02-07
+PV26,provincie Utrecht,Subsidieregister,https://www.provincie-utrecht.nl/loket/subsidies/verleende-subsidies,Wet open overheid,,subsidie,register,2017-2025,,2026-02-07
 PV28,provincie Zuid-Holland,Subsidieregister,https://subsidieregister.zuid-holland.nl/,Wet open overheid,,subsidie,register,2019-2025,"Subsidie-ontvangers; Jaar; Ambitie; doelstellingen; Regeling; Grondslag; Verleend bedrag",2026-02-07
 WS12,Hoogheemraadschap Hollands Noorderkwartier,Beschikkingen,https://open.hhnk.nl/beschikkingen,Wet open overheid,13,Last onder dwangsom; last onder bestuursdwang; beslissing op bezwaar,integraal,2025,,2026-02-07
+GM0034,Gemeente Almere,,https://www.almere.nl/bestuur-en-organisatie/wet-open-overheid-woo/beschikkingen-woo,,,,,,
+GM1959,Gemeente Altena,,https://open.gemeentealtena.nl/openbare-informatie,,,,,,
+GM0200,Gemeente Apeldoorn,,https://www.apeldoorn.nl/woo/zoeken-in-openbare-informatie,,,,,,
+GM0744,Gemeente Baarle-Nassau,,https://actieveopenbaarmaking.nl/dossier/beschikkingen/baarle-nassau,,,,,,
+GM0203,Gemeente Barneveld,,https://open.barneveld.nl/,,,,,,
+GM0888,Gemeente Beek,,https://open.gemeentebeek.nl/,,,,,,
+GM0375,Gemeente Beverwijk,,https://open.beverwijk.nl/beschikkingen,,,,,,
+GM0757,Gemeente Boxtel,,https://open.boxtel.nl/openbare-informatie,,,,,,
+GM1876,Gemeente Bronckhorst,,https://open.bronckhorst.nl/beschikkingen,,,,,,
+GM0221,Gemeente Doesburg,,https://woo.doesburg.nl/beschikkingen,,,,,,
+GM0158,Gemeente Haaksbergen,,https://www.haaksbergen.nl/gemeentebestuur/woo/Informatiecategorieen-Wet-open-overheid-Woo.html,,,,,,
+GM1655,Gemeente Halderberge,,https://open.halderberge.nl/beschikkingen,,,,,,
+GM0797,Gemeente Heusden,,https://www.heusden.nl/mijn-loket/wet-open-overheid-woo,,,,,,
+GM1598,Gemeente Koggenland,,https://www.koggenland.nl/openbaarmaking-beschikkingen-woo,,,,,,
+GM1659,Gemeente Laarbeek,,https://www.laarbeek.nl/vergunningen,,,,,,
+GM0080,Gemeente Leeuwarden,,https://www.leeuwarden.nl/melden-bij-de-gemeente/woo-verzoek-indienen-of-inzien/,,,,,,
+GM1640,Gemeente Leudal,,https://open.leudal.nl/beschikkingen,,,,,,
+GM0262,Gemeente Lochem,,https://open.lochem.nl/onderwerpen/soorten-informatie/beschikkingen,,,,,,
+GM1991,Gemeente Maashorst,,https://www.gemeentemaashorst.nl/bestuur-en-organisatie/beleid-en-regelgeving/openbaarmaking/,,,,,,
+GM0938,Gemeente Meerssen,,https://open.meerssen.nl/beschikkingen,,,,,,
+GM1952,Gemeente Midden-Groningen,,https://www.midden-groningen.nl/informatieverzoek-woo-verzoek#bekijk-openbare-informatie-18861,,,,,,
+GM0823,Gemeente Oirschot,,https://open.oirschot.nl/categorieen,,,,,,
+GM0432,Gemeente Opmeer,,https://www.opmeer.nl/beschikkingen,,,,,,
+GM0828,Gemeente Oss,,https://www.oss.nl/bestuur_en_organisatie/Open-overheid.htm,,,,,,
+GM0274,Gemeente Renkum,,https://www.renkum.nl/Bestuur_en_organisatie/Wet_open_overheid_Woo/Openbare_informatie,,,,,,
+GM0340,Gemeente Rhenen,,https://open.rhenen.nl/,,,,,,
+GM0845,Gemeente Sint-Michielsgestel,,https://open.sint-michielsgestel.nl/,,,,,,
+GM0848,Gemeente Son en Breugel,,https://open.sonenbreugel.nl/categorieen,,,,,,
+GM0180,Gemeente Staphorst,,https://open.staphorst.nl/beschikkingen,,,,,,
+GM0971,Gemeente Stein,,https://open.gemeentestein.nl/categorieen/beschikkingen,,,,,,
+GM1904,Gemeente Stichtse Vecht,,https://www.stichtsevecht.nl/over-de-gemeente/gemeentelijke-organisatie/open-stichtse-vecht,,,,,,
+GM0047,Gemeente Veendam,,https://www.veendam.nl/Onderwerpen/Bestuur_en_organisatie/Openbare_informatie_en_Woo_publicaties,,,,,,
+GM0096,Gemeente Vlieland,,https://www.vlieland.nl/welke-informatie-maakt-de-gemeente-vlieland-actief-openbaar,,,,,,
+GM0867,Gemeente Waalwijk,,https://www.waalwijk.nl/wet-open-overheid-woo,,,,,,
+GM0637,Gemeente Zoetermeer,,https://open.zoetermeer.nl/beschikkingen,,,,,,
+GM1892,Gemeente Zuidplas,,https://open.zuidplas.nl/,,,,,,
+PV29,provincie Zeeland,,https://www.zeeland.nl/loket/woo-categorieen-actieve-openbaarmaking/beschikkingen,,,,,,
+WS43,waterschap Vallei en Veluwe,,https://www.vallei-veluwe.nl/over-ons/open-overheid/beschikkingen/,,,,,,,

@@ -13,6 +13,7 @@
 		Periode: string;
 		'Aanwezige metadata (filters)': string;
 		'Laatste update': string;
+		Type: string;
 	};
 
 	let {
