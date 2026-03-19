@@ -4,6 +4,8 @@
 	import Map from '$lib/components/map.svelte';
 	import National from '$lib/components/national.svelte';
 	import Star from '$lib/components/star.svelte';
+
+	let { data } = $props();
 </script>
 
 <main class="text-bib-blue">
@@ -373,7 +375,7 @@
 					CC0 1.0
 				</a>. Naamsvermelding wordt gewaardeerd.
 			</p>
-			<p>Laatst bijgewerkt op {new Date().toLocaleDateString('nl-NL', { dateStyle: 'full' })}.</p>
+			<p>Laatst bijgewerkt op {data.updated}.</p>
 		</div>
 	</footer>
 </main>
