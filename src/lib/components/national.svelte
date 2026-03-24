@@ -27,7 +27,7 @@
 		return 4;
 	}
 
-	type Section = { label: string; groups: NationalGroup[] };
+	type Section = { key: string; label: string; groups: NationalGroup[] };
 	let sections: Section[] = $state([]);
 	let dialogEl: HTMLDialogElement | undefined = $state();
 	let popupName = $state('');
@@ -61,12 +61,14 @@
 
 		const sectionMap = new Map<string, Section>();
 		for (const g of groups) {
-			const key = `${g.typeOrder}`;
+			const key = g.type;
 			if (!sectionMap.has(key))
-				sectionMap.set(key, { label: typeLabels[g.type] || g.type, groups: [] });
+				sectionMap.set(key, { key, label: typeLabels[g.type] || g.type, groups: [] });
 			sectionMap.get(key)!.groups.push(g);
 		}
-		sections = Array.from(sectionMap.values());
+		sections = Array.from(sectionMap.values()).sort(
+			(a, b) => (typeOrder[a.key] ?? 99) - (typeOrder[b.key] ?? 99)
+		);
 	});
 
 	function openPopup(group: NationalGroup) {
@@ -75,22 +77,45 @@
 		dialogEl?.showModal();
 	}
 
+	function scrollToSection(key: string) {
+		const anchorEl = el?.querySelector(`[data-anchor="${key}"]`) as HTMLElement | null;
+		if (!el || !anchorEl) return;
+
+		el.scrollTo({ top: anchorEl.offsetTop, behavior: 'smooth' });
+	}
+
 	let el = $state<HTMLDivElement>();
 
 	const scroll = new ScrollState({ element: () => el });
 </script>
 
+<div class="-mt-4 mb-8 flex flex-wrap items-center justify-center gap-3">
+	{#each sections as section (section.key)}
+		<button
+			type="button"
+			class="cursor-pointer border border-bib-dark-blue bg-white px-3 py-1.5 text-sm font-medium text-bib-dark-blue transition hover:bg-gray-100"
+			onclick={() => scrollToSection(section.key)}
+		>
+			{section.label}
+		</button>
+	{/each}
+</div>
+
 <div
 	class="relative overflow-y-auto border border-bib-dark-blue max-sm:max-h-120 sm:aspect-square"
 	bind:this={el}
 >
-	{#each sections as section}
-		<div class="sticky top-0 z-10 border-y border-bib-dark-blue/20 bg-gray-100 px-6 py-2">
+	{#each sections as section (section.key)}
+		<div data-anchor={section.key}></div>
+		<div
+			data-section={section.key}
+			class="sticky top-0 z-10 border-y border-bib-dark-blue/20 bg-gray-100 px-6 py-2"
+		>
 			<span class="text-xs font-semibold tracking-wider text-bib-blue/60 uppercase"
 				>{section.label}</span
 			>
 		</div>
-		{#each section.groups as group, i}
+		{#each section.groups as group, i (`${section.key}-${group.name}`)}
 			{#if i > 0}
 				<hr class="border-bib-dark-blue/20" />
 			{/if}
