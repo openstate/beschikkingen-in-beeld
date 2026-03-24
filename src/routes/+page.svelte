@@ -87,7 +87,7 @@
 		</p>
 
 		<p class="text-bib-blue">
-			Sommige overheden zijn hiermee al aan de slag gedaan. Beschikkingen in Beeld brengt deze
+			Sommige overheden zijn hiermee al aan de slag gegaan. Beschikkingen in Beeld brengt deze
 			openbaarmakingspraktijken in kaart en reikt door middel van 'naming &amp; faming' voorbeelden
 			aan van succesvolle openbaarmaking.
 		</p>
@@ -100,7 +100,7 @@
 				target="_blank"
 				class="font-semibold underline decoration-2"
 			>
-				hun website
+				haar website
 			</a>
 			zowel een subsidieregister als een ‘beschikkingenregister’. Voor de inrichting van beide registers
 			is aangesloten bij de eisen die artikel 3.3a van de Wet open overheid stelt aan (actieve) openbaarmaking
@@ -127,11 +127,11 @@
 		</p>
 
 		<div class="space-y-8">
-			<Star level={1} title="Informatie beschikbaar over over indienen Woo-verzoek" />
+			<Star level={1} title="Informatie beschikbaar over indienen Woo-verzoek" />
 			<Star level={2} title="Openbaarmaking van eerdere Woo-besluiten" />
 			<Star level={3} title="Openbaarmaking van andere categorieën overheidsinformatie" />
 			<Star level={4} title="Gedeeltelijke openbaarmaking van beschikkingen" />
-			<Star level={5} title="Integrale openbaarmaking van beschikkingen" />
+			<Star level={5} title="Volledige openbaarmaking van beschikkingen" />
 		</div>
 	</section>
 
@@ -166,18 +166,21 @@
 		<p class="mb-6 text-bib-blue">
 			Een van de redenen voor openbaarmaking van beschikkingen is <strong class="font-semibold">
 				naming&nbsp;&amp;&nbsp;shaming
-			</strong>: het waarschuwen van het publiek voor een overtreder.
+			</strong>: het waarschuwen van het publiek voor een overtreder, indien de beschikking een
+			sanctie betreft.
 		</p>
 
 		<p class="mb-6 text-bib-blue">
 			Beschikkingen in Beeld kiest echter voor <strong class="font-semibold">
 				naming&nbsp;&amp;&nbsp;faming
-			</strong>: voorbeelden tonen van overheden die al wel beschikkingen openbaar maken op hun
-			website, en dus vier sterren (lichtgroen) of vijf sterren (donkergroen) scoren.
+			</strong>: voorbeelden tonen van overheden die al wel beschikkingen – geheel of gedeeltelijk
+			– openbaar maken op hun website. Zij scoren dus vier sterren (lichtgroen) of vijf sterren
+			(donkergroen).
 		</p>
 
 		<p class="mb-20 text-bib-blue">
-			Klik op een overheid op de kaart van lokale overheden of de lijst van nationale overheden om
+			Klik op een specifieke overheid op de kaart van lokale overheden of de lijst van nationale
+			overheden om
 			meer te leren over hun openbaarmakingspraktijken.
 		</p>
 
@@ -279,7 +282,7 @@
 			natuurvergunningen. PUC geeft de inhoud van het besluit weer in html-formaat (met de
 			mogelijkheid om het document in pdf-formaat te genereren). Naast diverse metadata (onder
 			‘Documentgegevens’) bevat PUC ook verwijzingen naar andere documenten, zoals de verlening van
-			de vergunning waarop de weigering betrekking heeft.
+			de vergunning waarop de wijziging betrekking heeft.
 		</p>
 
 		<a href="/puc.png" target="_blank">
@@ -305,9 +308,13 @@
 				>Tilburg University</a
 			>, <a href="https://openstate.eu" target="_blank" class="underline">Open State Foundation</a>
 			en <a href="https://www.centerdata.nl" target="_blank" class="underline">Centerdata</a>.
-			Beschikkingen in Beeld is onderdeel van het meerjarige onderzoeksproject
-			<strong class="font-semibold"
-				>Case-Inclusive Transparency for a Digital and Open Government (CITaDOG)</strong
+			Beschikkingen in Beeld is onderdeel van het meerjarige onderzoeksproject <a
+				href="https://www.citadog.nl"
+				target="_blank"
+				class="underline"
+				><strong class="font-semibold"
+					>Case-Inclusive Transparency for a Digital and Open Government (CITaDOG)</strong
+				></a
 			>, waarbinnen de gevolgen van het proces van openbaarmaking van beschikkingen voor het proces
 			van overheidsbesluitvorming worden onderzocht.
 		</p>
