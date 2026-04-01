@@ -81,13 +81,14 @@
 			Beschikkingen zijn <strong class="font-semibold"
 				>overheidsbesluiten voor individuele gevallen</strong
 			>. Voorbeelden hiervan zijn een vergunning, een subsidie, een toeslag of een bestuurlijke
-			boete. Op grond van de Wet open overheid zullen overheden in de toekomst ook hun beschikkingen
+			boete. Op grond van de Wet open overheid (Woo) zullen overheden in de toekomst ook hun beschikkingen
 			openbaar moeten maken. Daarmee komt een beschikking dus niet langer alleen beschikbaar voor
 			degene tot wie die is gericht, maar voor iedereen.
 		</p>
 
 		<p class="text-bib-blue">
-			Sommige overheden zijn hiermee al aan de slag gegaan. Beschikkingen in Beeld brengt deze
+			Sommige overheden zijn hiermee al aan de slag gegaan, op basis van de Woo of andere wetgeving.
+			Beschikkingen in Beeld brengt deze
 			openbaarmakingspraktijken in kaart en reikt door middel van 'naming &amp; faming' voorbeelden
 			aan van succesvolle openbaarmaking.
 		</p>
@@ -146,8 +147,8 @@
 			</a> maakt de gemeente Oldambt – vooruitlopend op de inwerkingtreding van de verplichting hiertoe
 			– beschikkingen reeds openbaar als afzonderlijke informatiecategorie. De beschikking wordt niet
 			alleen beschikbaar gesteld als ‘document’ (in pdf-formaat), maar ook als ‘dossier’ waarvan dit document
-			deel uitmaakt (waardoor de zoekresultaten dubbel tellen). In het document wordt gemotiveerd welke
-			informatie binnen de beschikking niet openbaar wordt gemaakt.
+			deel uitmaakt. In het document wordt met verwijzing naar de uitzonderingsgronden van de Woo gemotiveerd
+			welke informatie binnen de beschikking niet openbaar wordt gemaakt.
 		</p>
 
 		<a href="/oldambt.png" target="_blank">
@@ -179,16 +180,16 @@
 		</p>
 
 		<p class="mb-20 text-bib-blue">
-			Klik op een specifieke overheid op de kaart van lokale overheden of de lijst van nationale
-			overheden om
+			Klik op een specifieke overheid op de kaart van decentrale overheden of de lijst van organisaties
+			binnen de centrale overheid om
 			meer te leren over hun openbaarmakingspraktijken.
 		</p>
 
-		<h3 class="mb-10 text-center text-xl font-semibold">Lokale overheden</h3>
+		<h3 class="mb-10 text-center text-xl font-semibold">Decentrale overheden</h3>
 
 		<Map />
 
-		<h3 class="mb-10 text-center text-xl font-semibold">Nationale overheden</h3>
+		<h3 class="mb-10 text-center text-xl font-semibold">Centrale overheid</h3>
 
 		<div class="mb-20">
 			<National />
@@ -332,7 +333,8 @@
 
 		<div class="flex flex-wrap justify-center gap-6">
 			<a
-				href="#"
+				href="https://openstate.eu/wp-content/uploads/sites/14/2026/04/Beschikkingen-in-Beeld.pdf"
+				target="_blank"
 				class="bg-bib-blue px-6 py-2.5 text-xl font-semibold text-white transition hover:brightness-95"
 			>
 				Lees het hele rapport
@@ -350,7 +352,7 @@
 	<footer class="mt-36 bg-bib-blue py-12 text-white">
 		<div class="mx-auto w-content-md">
 			<p class="mb-4 font-medium">
-				Beschikkingen in Beeld door
+				Beschikkingen in Beeld is een project van
 				<a
 					href="https://www.tilburguniversity.edu/"
 					target="_blank"
