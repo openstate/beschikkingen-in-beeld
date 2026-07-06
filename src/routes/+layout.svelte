@@ -2,8 +2,21 @@
 	import '@fontsource-variable/lora';
 	import '@fontsource-variable/work-sans';
 	import './layout.css';
+	import { afterNavigate } from '$app/navigation';
 
 	let { children } = $props();
+
+	afterNavigate((navigation) => {
+		// the initial page load is already tracked by the Matomo snippet in app.html
+		if (navigation.type === 'enter' || !navigation.to) return;
+
+		const matomo = (window._paq = window._paq || []);
+		if (navigation.from) matomo.push(['setReferrerUrl', navigation.from.url.href]);
+		matomo.push(['setCustomUrl', navigation.to.url.href]);
+		matomo.push(['setDocumentTitle', document.title]);
+		matomo.push(['trackPageView']);
+		matomo.push(['enableLinkTracking']);
+	});
 </script>
 
 <svelte:head>
